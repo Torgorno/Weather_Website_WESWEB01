@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Profiles</title>
+    <link rel="stylesheet" href="css/newProfiles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/WeatherPage"> Weather rapport</a></li>
+          <li><a href="/newProfiles">Register</a></li>
+          <li><a href="/login">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Registertation page</h1>
+      <hr />
+      <form method="post">
+        <label for="username">Username: </label>
+        <br />
+        <input type="text" name="username" placeholder="Enter your username" />
+        <br />
+        <label for="password">Password: </label>
+        <br />
+        <input type="password" name="password" placeholder="password" />
+        <br />
+        <label for="fav-positions">Favorite places to bookmark:</label>
+        <br />
+        <input
+          type="text"
+          name="fav-positions"
+          placeholder="Tokyo, Moscow, New York,"
+        />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>

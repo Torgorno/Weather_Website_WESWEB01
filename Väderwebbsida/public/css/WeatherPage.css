@@ -1,0 +1,87 @@
+body {
+  background-image: linear-gradient(135deg, #d8bb3c 0%, #000000 100%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  background-image: linear-gradient(135deg, #d8bb3c 0%, #000000 100%);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  z-index: 999;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: rgb(39, 216, 23);
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 6rem 0 3rem;
+  text-shadow: 2px 2px #111;
+}
+
+p {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+input[type="text"] {
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 1rem 0 0 1rem;
+  border: none;
+  width: 30rem;
+  color: #111;
+}
+
+button[type="submit"] {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  color: #ca9546;
+  border: none;
+  border-radius: 0 1rem 1rem 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #ca9546;
+  color: #fff;
+}

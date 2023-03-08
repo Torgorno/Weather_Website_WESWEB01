@@ -1,0 +1,27 @@
+body {
+  background-color: teal;
+}
+aside,
+main {
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 2px 2px 20px black;
+  min-height: 300px;
+  min-width: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+main {
+  width: 800px;
+}
+
+aside > img {
+  display: block;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 25px;
+}

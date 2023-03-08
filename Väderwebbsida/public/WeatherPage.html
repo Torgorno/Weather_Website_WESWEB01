@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/WeatherPage.css" />
+    <title>Weather Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/WeatherPage">Weather rapport</a></li>
+          <li><a href="/newProfiles">Register</a></li>
+          <li><a href="/login">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Weather in {location}</h1>
+      <p>Temperature: {temperature} degrees Celsius</p>
+      <p>Condition: {condition}</p>
+      <form action="/WeatherPage" method="get">
+        <input type="text" name="location" placeholder="Enter location" />
+        <button type="submit">Search</button>
+      </form>
+    </main>
+  </body>
+</html>
