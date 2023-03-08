@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "63f82fbf9f1e139f1dcf18d7"
+  },
+  "username": "Tor",
+  "password": "Siggeroid22",
+  "favPositions": [
+    "Tokyo",
+    " Moscow",
+    " Chernobyl",
+    ""
+  ]
+}]
